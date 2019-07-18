@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block name %}{{ article.name }}{% endblock %}
+
+{% block message %}
+ <h1>{{ article.name }}</h1>
+ <p>{{ article.message }}</p>
+ <hr>
+ <a href="/">Go Back</a>
+{% endblock %}
